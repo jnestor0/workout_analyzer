@@ -1,0 +1,48 @@
+{
+  "files.associations": {
+    "*.py": "python"
+  },
+  "python.defaultInterpreterPath": "C:\\Users\\jnest\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+
+  // Modern VS Code Python Linter & Formatter Extensions
+  "flake8.interpreter": [
+    "C:\\Users\\jnest\\AppData\\Local\\Programs\\Python\\Python314\\python.exe"
+  ],
+  "flake8.path": [
+    "C:\\Users\\jnest\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\flake8.exe"
+  ],
+  "pylint.enabled": true,
+  "pylint.interpreter": [
+    "C:\\Users\\jnest\\AppData\\Local\\Programs\\Python\\Python314\\python.exe"
+  ],
+  "pylint.path": [
+    "C:\\Users\\jnest\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\pylint.exe"
+  ],
+  "mypy-type-checker.interpreter": [
+    "C:\\Users\\jnest\\AppData\\Local\\Programs\\Python\\Python314\\python.exe"
+  ],
+  "mypy-type-checker.path": [
+    "C:\\Users\\jnest\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\mypy.exe"
+  ],
+  "mypy-type-checker.reportingScope": "workspace",
+  "black-formatter.interpreter": [
+    "C:\\Users\\jnest\\AppData\\Local\\Programs\\Python\\Python314\\python.exe"
+  ],
+  "black-formatter.path": [
+    "C:\\Users\\jnest\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\black.exe"
+  ],
+
+  // Legacy Python extension linting keys (for backward compatibility)
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.mypyEnabled": true,
+
+  // Python editor settings
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": false,
+    "editor.rulers": [79, 88, 100]
+  }
+}
+
